@@ -1,12 +1,5 @@
-let socialLinks = {
-    "Portfólio":"https://vinicgobbi.github.io",
-    "Blog": "https://vinicgobbi.github.io/blog/",
-    "LinkedIn": "https://www.linkedin.com/in/vinicgobbi/",
-    "Github": "https://github.com/vinicgobbi",
-    "Instagram": "https://instagram.com/vinicgobbi",
-    "Gmail": "mailto:vinicius.cgobbi2004@gmail.com",
-    "Outlook": "mailto:vinicius.cgobbi@hotmail.com"
-}
+import socialLinks from '../assets/links.json' with {type: 'json'}
+
 let obj = Object.keys(socialLinks)
 let section = document.querySelector("section")
 for (let i = 0; i < obj.length; i++){
